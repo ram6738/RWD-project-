@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Buddy</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(10px);
+            width: 90%;
+            margin: 15px auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            width: 55px;
+            height: 55px;
+            object-fit: contain;
+        }
+
+        .navbar a {
+            color: black;
+            margin: 0 8px;
+        }
+
+        .page-background {
+            flex: 1;
+            padding-top: 85px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.3),
+                                rgba(0, 0, 0, 0.4)),
+                url("https://i.imgur.com/gc1HjiF.jpg");
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about-card {
+            width: 90%;
+            padding: 25px;
+            background-color: rgba(16, 1, 1, 0.25);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .footer1 {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .footer1 h4,
+        .footer1 p {
+            margin: 3px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-light">
+
+        <a class="navbar-brand" href="index.html">
+            <img src='https://files.catbox.moe/k0q1m6.png'
+                class="logo"
+                alt="Travel Buddy">
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Home_page.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="booking.html">Booking</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <main class="page-background">
+
+        <div class="about-card">
+
+            <h2>About Travel Buddy</h2>
+
+           <p>
+        Travel Buddy was started with a simple idea — to make travel planning
+        easier, more convenient, and enjoyable for everyone. Planning a trip
+        can often involve searching for destinations, comparing travel options,
+        and organizing different parts of a journey. Travel Buddy brings these
+        essential things together in one simple platform.
+    </p>
+
+    <p>
+        Our journey began with the vision of creating a user-friendly travel
+        website where people can explore different destinations and find
+        suitable travel options without making the planning process complicated.
+        We believe that every journey begins with discovering a place that
+        inspires you to travel.
+    </p>
+
+    <p>
+        Travel Buddy provides information about various destinations and helps
+        users explore different travel possibilities. Whether you are planning
+        a peaceful vacation, an adventurous getaway, a family holiday, or a
+        trip with friends, our platform is designed to make the experience
+        simple and convenient.
+    </p>
+
+    <p>
+        Our goal is to connect travelers with memorable experiences. From
+        selecting a destination to planning a booking, Travel Buddy aims to
+        provide the essential information needed to make better travel
+        decisions and organize a journey with ease.
+    </p>
+
+    <p>
+        We understand that travel is not just about reaching a destination.
+        It is about discovering new places, experiencing different cultures,
+        creating memories, and spending meaningful time with the people around
+        us. That is why Travel Buddy focuses on making the planning process
+        smooth so that travelers can spend more time enjoying their journey.
+    </p>
+
+    <p>
+        As a growing travel platform, Travel Buddy continues to focus on
+        simplicity, accessibility, and a better user experience. Our vision is
+        to create a reliable platform that helps travelers discover new
+        destinations and turn their travel plans into memorable experiences.
+    </p>
+
+    <p>
+        At Travel Buddy, we believe that every journey has a story waiting to
+        be created. Explore new places, plan your next adventure, and make
+        every trip a memorable one with Travel Buddy.
+    </p>
+
+        </div>
+
+    </main>
+
+    <footer class="footer1">
+
+        <h4>Travel Buddy</h4>
+
+        <p>Explore. Travel. Enjoy.</p>
+
+        <p>© 2026 Travel Buddy</p>
+
+    </footer>
+
+</body>
+
+</html>
